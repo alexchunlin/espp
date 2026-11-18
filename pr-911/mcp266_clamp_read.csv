@@ -1,0 +1,5 @@
+node,channel,object,min_read_alone_sub6,max_read_alone_sub7,min_read_in_order_from_sub1,max_read_in_order_from_sub1,cia402_0x607D_min,cia402_0x607D_max
+3,M1,0x203F,0,0,10000,18000,10000,18000
+3,M2,0x2040,0,0,25000,32000,25000,32000
+2,M1,0x203F,0,0,-80000,80000,-80000,80000
+2,M2,0x2040,0,0,0,0,0,0

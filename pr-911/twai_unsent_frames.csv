@@ -1,0 +1,4 @@
+setting,unsent_frames,seconds_observed,unsent_per_minute,node2_failed_poll_passes,node2_poll_passes
+tx_retry_count = 3,341,106.6,191.9,290,9717
+tx_retry_count = 15,232,72.3,192.5,181,5823
+tx_retry_count = -1,39,2846.1,0.8,0,283249
