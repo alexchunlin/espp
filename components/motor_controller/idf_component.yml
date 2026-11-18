@@ -1,4 +1,5 @@
 ## IDF Component Manager Manifest File
+version: "1.4.3"
 license: "MIT"
 description: "Shared motor-controller interface for espp: the MotorAxis channel selector and the MotorController concept satisfied by the Basicmicro (serial) and Mcp266 (CANopen) drivers"
 url: "https://github.com/esp-cpp/espp/tree/main/components/motor_controller"

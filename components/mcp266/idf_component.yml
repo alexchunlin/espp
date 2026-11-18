@@ -1,4 +1,5 @@
 ## IDF Component Manager Manifest File
+version: "1.4.3"
 license: "MIT"
 description: "Dual-channel Basicmicro MCP266 (RoboClaw family) motor controller over CANopen (CiA 402 profile position)"
 url: "https://github.com/esp-cpp/espp/tree/main/components/mcp266"
@@ -24,7 +25,10 @@ dependencies:
     version: '>=5.0'
   espp/base_component: '>=1.0'
   espp/canopen: '>=1.0'
-  espp/motor_controller: '>=1.0'
+  espp/motor_controller:
+    git: https://github.com/alexchunlin/espp.git
+    path: components/motor_controller
+    version: rammp/mcp266-clamp-fix
   espp/dispatcher: '>=1.0'
   espp/stream_frame: '>=1.0'
   espp/task: '>=1.0'
